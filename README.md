@@ -1,5 +1,5 @@
 
-#Legacy Pocket Forwarder Setup
+# Legacy Pocket Forwarder Setup
 
 # [clodpi.io](http://clodpi.io)
 
@@ -16,7 +16,7 @@
 3)Arrow down to `A6 SPI`.
 4)Select `yes` when it asks you to enable SPI,
 5)Also select `yes` when it asks about automatically loading the kernel module.
-6)Use the right arrow to select the `<Finish>` button.
+6)Use the right arrow to select the `<Finish>` button. 
 7)Select `yes` when it asks to reboot.
 
 ### Verify SPI
@@ -28,7 +28,10 @@
 `sudo apt-get install git`
 
 ### Install Pocket forwarder
+`cd ~`
 `git clone https://github.com/clodpi/loragw.git`
+`cd ~\loragw`
+`sudo ./install.sh`
 
 ### Configire Pocket forwarder
 Edit `local_conf.json` to Configure the backend server which you are planning to use
