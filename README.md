@@ -33,7 +33,7 @@
  
  `git clone https://github.com/clodpi/loragw.git`
  
- `cd ~\loragw`
+ `cd ~/loragw`
  
  `sudo ./install.sh`
 
