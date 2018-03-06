@@ -21,19 +21,19 @@
 1) Run `ls /dev/*spi*` Should respond with '/dev/spidev0.0  /dev/spidev0.1'
 
 ### Install GIT
-`sudo apt-get update`
-`sudo apt-get upgrade`
-`sudo apt-get install git`
+ `sudo apt-get update`
+ `sudo apt-get upgrade`
+ `sudo apt-get install git`
 
 ### Install Pocket forwarder
-`cd ~`
-`git clone https://github.com/clodpi/loragw.git`
-`cd ~\loragw`
-`sudo ./install.sh`
+ `cd ~`
+ `git clone https://github.com/clodpi/loragw.git`
+ `cd ~\loragw`
+ `sudo ./install.sh`
 
 ### Configire Pocket forwarder
-Edit `local_conf.json` to Configure the backend server which you are planning to use
-`sudo nano /opt/semtech/packet_forwarder/lora_pkt_fwd/local_conf.json`
+ Edit `local_conf.json` to Configure the backend server which you are planning to use
+ `sudo nano /opt/semtech/packet_forwarder/lora_pkt_fwd/local_conf.json`
 
-Contact us : meetus@clodpi.io
+ Contact us : meetus@clodpi.io
 
