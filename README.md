@@ -9,13 +9,13 @@
 ## Firmware setup
 
 ### Enable SPI
-1)Run `sudo raspi-config`.
-2)Use the down arrow to select `9 Advanced Options`
-3)Arrow down to `A6 SPI`.
-4)Select `yes` when it asks you to enable SPI,
-5)Also select `yes` when it asks about automatically loading the kernel module.
-6)Use the right arrow to select the `<Finish>` button. 
-7)Select `yes` when it asks to reboot.
+1) Run `sudo raspi-config`.
+2) Use the down arrow to select `9 Advanced Options`
+3) Arrow down to `A6 SPI`.
+4) Select `yes` when it asks you to enable SPI,
+5) Also select `yes` when it asks about automatically loading the kernel module.
+6) Use the right arrow to select the `<Finish>` button. 
+7) Select `yes` when it asks to reboot.
 
 ### Verify SPI
 1) Run `ls /dev/*spi*` Should respond with '/dev/spidev0.0  /dev/spidev0.1'
