@@ -1,7 +1,5 @@
 
-# Legacy Pocket Forwarder Setup
-
-# [clodpi.io](http://clodpi.io)
+# Legacy Pocket Forwarder Setup   [clodpi.io](http://clodpi.io)
 
 ## Hardware
 1) Get the raspberry pi 3 board and get a 8gb micro sd card ready with the raspbian software
@@ -37,5 +35,5 @@
 Edit `local_conf.json` to Configure the backend server which you are planning to use
 `sudo nano /opt/semtech/packet_forwarder/lora_pkt_fwd/local_conf.json`
 
-Contact us : [meetus@clodpi.io](meetus@clodpi.io)
+Contact us : meetus@clodpi.io
 
