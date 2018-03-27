@@ -41,6 +41,8 @@ install -m 644 files/packet-forwarder.service   ${ROOTFS_DIR}/lib/systemd/system
 
 systemctl enable packet-forwarder
 
+echo "LoRaWAN Gateway EUI : $GATEWAY_EUI"
+
 echo "The system will reboot in 5 seconds..."
 sleep 5
 shutdown -r now
