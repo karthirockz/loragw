@@ -33,9 +33,14 @@ LOCAL_CONFIG_FILE=$INSTALL_DIR/packet_forwarder/lora_pkt_fwd/local_conf.json
 
 echo -e "{\"gateway_conf\":{\"gateway_ID\":\"$GATEWAY_EUI\",\"server_address\":\"console.clodpi.io\",\"serv_port_up\":1700,\"serv_port_down\":1700,\"keepalive_interval\":10,\"stat_interval\":30,\"push_timeout_ms\":100,\"forward_crc_valid\":true,\"forward_crc_error\":false,\"forward_crc_disabled\":false}}" >$LOCAL_CONFIG_FILE
 
+cp files/global_conf.json $INSTALL_DIR/packet_forwarder/lora_pkt_fwd/global_conf.json
 install -m 755 files/start.sh /opt/semtech/packet_forwarder/lora_pkt_fwd
 #install -m 644 files/local_conf.json   ${ROOTFS_DIR}/opt/semtech/packet_forwarder/lora_pkt_fwd
 install -m 644 files/packet-forwarder.service   ${ROOTFS_DIR}/lib/systemd/system/
 
 
 systemctl enable packet-forwarder
+
+echo "The system will reboot in 5 seconds..."
+sleep 5
+shutdown -r now
