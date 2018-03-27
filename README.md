@@ -36,9 +36,15 @@
  `cd ~/loragw`
  
  `sudo ./install.sh`
+ 
+ Raspberry Pi will reboot after installation.
+ 
+`sudo cat /opt/semtech/packet_forwarder/lora_pkt_fwd/local_conf.json` to get the gateway_ID (Gateway MAC)
 
-### Configire Pocket forwarder
- Edit `local_conf.json` to Configure the backend server which you are planning to use
+ Proceed to https://console.clodpi.io to configure the Gateway
+
+### Configire Pocket forwarder (if needed)
+ Edit `local_conf.json` 
  
  `sudo nano /opt/semtech/packet_forwarder/lora_pkt_fwd/local_conf.json`
 
