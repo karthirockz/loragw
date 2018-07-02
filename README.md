@@ -3,7 +3,7 @@
 
 ## Hardware
 1) Get the raspberry pi 3 board and get a 8gb micro sd card ready with the raspbian software
-2) Connect raspberry pi + pi adapter + RAK831 Gateway Module
+2) Connect raspberry pi + pi adapter + IMST Gateway Module
 3) Connect the raspberry pi to 5v 2amps power supply.
 
 ## Firmware setup
