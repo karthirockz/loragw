@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-IOT_SK_SX1301_RESET_PIN=17
+IOT_SK_SX1301_RESET_PIN=25
 
 echo "Accessing concentrator reset pin through GPIO$IOT_SK_SX1301_RESET_PIN..."
 
